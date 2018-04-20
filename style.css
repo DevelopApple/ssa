@@ -328,7 +328,7 @@ input:-webkit-autofill:focus {
 }
 
 .area-title h2 {
-    color: #cb3461;
+    color: #1a264a;
     line-height: 1;
     margin-bottom: 45px;
     padding-bottom: 35px;
@@ -357,7 +357,7 @@ input:-webkit-autofill:focus {
 }
 
 .area-title h2::after {
-    border-bottom: 2px dashed cb3461;
+    border-bottom: 2px dashed #1a264a;
     bottom: 0;
     content: "";
     height: 2px;
@@ -369,7 +369,7 @@ input:-webkit-autofill:focus {
 }
 
 .sky-gray-bg .area-title .icon-and-border {
-    background: f7d5df;
+    background: #e5eff6;
 }
 
 .gray-bg .area-title .icon-and-border {
@@ -1275,7 +1275,7 @@ ul#nav li.active a {
 
 ul#nav li ul a,
 .is-sticky ul#nav li ul a {
-    border-bottom: 1px solid #cb3461;
+    border-bottom: 1px solid #1a1a1a;
     padding: 10px;
     padding-left: 15px;
 }
@@ -1444,9 +1444,9 @@ ul#nav li ul a,
 
 .home-button a:hover,
 .sign-up:hover {
-    background: #f7d5df none repeat scroll 0 0;
+    background: #cb3461 none repeat scroll 0 0;
     border-color: #ffffff;
-    color: #f7d5df;
+    color: #cb3461;
 }
 
 
@@ -1775,7 +1775,7 @@ ul#nav li ul a,
 .download-button:hover {
     background: #fff none repeat scroll 0 0;
     border-color: #fff;
-    color: #f7d5df;
+    color: #cb3461;
 }
 
 /*-------------------------------
