@@ -357,7 +357,7 @@ width: 40px;
 }
 
 .area-title h2::after {
-border-bottom: 2px dashed #1a264a;
+border-bottom: 2px dashed #cb3461;
 bottom: 0;
 content: "";
 height: 2px;
@@ -369,7 +369,7 @@ width: 50%;
 }
 
 .sky-gray-bg .area-title .icon-and-border {
-background: #e5eff6;
+background: #f5d1dc;
 }
 
 .gray-bg .area-title .icon-and-border {
