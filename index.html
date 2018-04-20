@@ -40,6 +40,316 @@
         <script src="//oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
         <script src="//oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
         <![endif]-->
+    <style>
+body {font-family: Arial, Helvetica, sans-serif;}
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    -webkit-animation-name: fadeIn; /* Fade in the background */
+    -webkit-animation-duration: 0.4s;
+    animation-name: fadeIn;
+    animation-duration: 0.4s
+}
+.test{
+    height:200px;
+    width:200px;
+    float: center;
+}
+.header {
+	width: 100%;
+	background: url(../images/header_bg.jpg) no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-position: center;
+	background-size: 100% 100%;
+}
+.header-left {
+	float: left;
+	width: 45.5%;
+	padding-top: 4.4%;
+}
+.header-left span {
+	width: 492px;
+	height: 564px;
+	display: block;
+	background: url(../images/2.png) no-repeat;
+}
+.header-right {
+	float: right;
+	width: 54.5%;
+	margin-top: 12%;
+}
+.header-right h1{
+	color: #FFF;
+	font-size: 2em;
+	font-weight: 300;
+	padding: 5% 0 0 0;
+	text-shadow: -1px 0px 1px rgba(214, 214, 214, 0.59);
+	-webkit-text-shadow: -1px 0px 1px rgba(214, 214, 214, 0.59);
+	-moz-text-shadow: -1px 0px 1px rgba(214, 214, 214, 0.59);
+	-o-text-shadow: -1px 0px 1px rgba(214, 214, 214, 0.59);
+	line-height: 1.4em;
+}
+.divalert{
+  background: #000000;
+  width:0px;
+  border-radius: 15px;
+  padding:0px;
+  font-size:18px;
+  color:#fefefe;   
+}
+.header-right p{
+	color:#333;
+	font-size:1em;
+	font-weight:700;
+	margin: 2% 0 3% 0;
+}
+/*--content--*/
+.content-middle {
+    width: 100%;
+    background: url(../images/content_middle.jpg) no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-position: center;
+	background-size: 100% 100%;
+	height:500px;
+}
+.content-top{
+	background:#fff;
+	padding:5% 0;
+}
+h2.m_1{
+	color:#000;
+	font-size:2.6em;
+	text-align:center;
+	font-weight:300;
+	margin-bottom: 10px;
+	text-shadow: -1px 0px 0px #868585;
+	-webkit-text-shadow: -1px 0px 0px #868585;
+	-moz-text-shadow: -1px 0px 0px #868585;
+	-o-text-shadow: -1px 0px 0px #868585;
+}
+p.m_2{
+	color:#777;
+	font-size:1.1em;
+	text-align:center;
+}
+/* Modal Content */
+.modal-content {
+    position: fixed;
+    bottom: 0;
+    background-color: #fefefe;
+    width: 100%;
+    -webkit-animation-name: slideIn;
+    -webkit-animation-duration: 0.4s;
+    animation-name: slideIn;
+    animation-duration: 0.4s
+}
+/* The Close Button */
+.close {
+    color: #cb3461;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+.close:hover,
+.close:focus {
+    color: #cbcbcb;
+    text-decoration: none;
+    cursor: pointer;
+}
+.modal-header {
+    padding: 2px 16px;
+    background-color: #fefefe;
+    color: black;
+}
+.modal-body {padding: 2px 16px;}
+.modal-footer {
+    padding: 2px 16px;
+    background-color: #fefefe;
+    color: black;
+}
+/* Add Animation */
+@-webkit-keyframes slideIn {
+    from {bottom: -300px; opacity: 0} 
+    to {bottom: 0; opacity: 1}
+}
+@keyframes slideIn {
+    from {bottom: -300px; opacity: 0}
+    to {bottom: 0; opacity: 1}
+}
+@-webkit-keyframes fadeIn {
+    from {opacity: 0} 
+    to {opacity: 1}
+}
+@keyframes fadeIn {
+    from {opacity: 0} 
+    to {opacity: 1}
+}
+	body {font-family: Arial, Helvetica, sans-serif;}
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    -webkit-animation-name: fadeIn; /* Fade in the background */
+    -webkit-animation-duration: 0.4s;
+    animation-name: fadeIn;
+    animation-duration: 0.4s
+}
+.test{
+    height:200px;
+    width:200px;
+    float: center;
+}
+.header {
+	width: 100%;
+	background: url(../images/header_bg.jpg) no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-position: center;
+	background-size: 100% 100%;
+}
+.header-left {
+	float: left;
+	width: 45.5%;
+	padding-top: 4.4%;
+}
+.header-left span {
+	width: 492px;
+	height: 564px;
+	display: block;
+	background: url(../images/2.png) no-repeat;
+}
+.header-right {
+	float: right;
+	width: 54.5%;
+	margin-top: 12%;
+}
+.header-right h1{
+	color: #FFF;
+	font-size: 2em;
+	font-weight: 300;
+	padding: 5% 0 0 0;
+	text-shadow: -1px 0px 1px rgba(214, 214, 214, 0.59);
+	-webkit-text-shadow: -1px 0px 1px rgba(214, 214, 214, 0.59);
+	-moz-text-shadow: -1px 0px 1px rgba(214, 214, 214, 0.59);
+	-o-text-shadow: -1px 0px 1px rgba(214, 214, 214, 0.59);
+	line-height: 1.4em;
+}
+.header-right p{
+	color:#333;
+	font-size:1em;
+	font-weight:700;
+	margin: 2% 0 3% 0;
+}
+/*--content--*/
+.content-middle {
+    width: 100%;
+    background: url(../images/content_middle.jpg) no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-position: center;
+	background-size: 100% 100%;
+	height:500px;
+}
+.content-top{
+	background:#fff;
+	padding:5% 0;
+}
+h2.m_1{
+	color:#000;
+	font-size:2.6em;
+	text-align:center;
+	font-weight:300;
+	margin-bottom: 10px;
+	text-shadow: -1px 0px 0px #868585;
+	-webkit-text-shadow: -1px 0px 0px #868585;
+	-moz-text-shadow: -1px 0px 0px #868585;
+	-o-text-shadow: -1px 0px 0px #868585;
+}
+p.m_2{
+	color:#777;
+	font-size:1.1em;
+	text-align:center;
+}
+/* Modal Content */
+.modal-content {
+    position: fixed;
+    bottom: 0;
+    background-color: #fefefe;
+    width: 100%;
+    -webkit-animation-name: slideIn;
+    -webkit-animation-duration: 0.4s;
+    animation-name: slideIn;
+    animation-duration: 0.4s
+}
+/* The Close Button */
+.close {
+    color: #cb3461;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+.close:hover,
+.close:focus {
+    color: #cbcbcb;
+    text-decoration: none;
+    cursor: pointer;
+}
+.modal-header {
+    padding: 2px 16px;
+    background-color: #fefefe;
+    color: black;
+}
+.modal-body {padding: 2px 16px;}
+.modal-footer {
+    padding: 2px 16px;
+    background-color: #fefefe;
+    color: black;
+}
+/* Add Animation */
+@-webkit-keyframes slideIn {
+    from {bottom: -300px; opacity: 0} 
+    to {bottom: 0; opacity: 1}
+}
+@keyframes slideIn {
+    from {bottom: -300px; opacity: 0}
+    to {bottom: 0; opacity: 1}
+}
+@-webkit-keyframes fadeIn {
+    from {opacity: 0} 
+    to {opacity: 1}
+}
+@keyframes fadeIn {
+    from {opacity: 0} 
+    to {opacity: 1}
+}
+</style>
 </head>
 
 <body class="home-one" data-spy="scroll" data-target=".mainmenu-area" data-offset="90">
@@ -65,8 +375,7 @@
                         <span class="icon-and-border"><i class="material-icons">phone_android</i></span>
                         <p>Rapidiously monetize state of the art ROI rather than quality. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim neque aliquid.</p>
                      <div class="home-button">
-                                    <a href="#">Get App Now</a>
-                                    <a href="#">Discover More</a>
+                                    <a href="#" id="myBtn"><img src="images/appstore.png" alt=""/></a>
                                 </div>
                     </div>
                 </div>
@@ -251,6 +560,63 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
             </div>
         </div>
     </div>
+    <!-- Trigger/Open The Modal -->
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <div class="modal-header">
+      <span class="close">&times;</span>
+        <h2>Installation Guide</h2>
+        
+     
+    </div>
+
+    <div class="modal-body">
+      <p><a  target="_new" style="color:#cb3461;">1.</a>agreed to install.will automati installs to your home screen</p>
+            <img src="https://raw.githubusercontent.com/MegaFeet/MegaFeetApp/master/images/instal1.png" alt="Mountain View">
+ <p>After the installation is complete.Go To <a  target="_new" style="color:#cb3461;">Settings app > General > Device management </a>Then click Trust to certifie</p>
+
+    
+      <img src="https://raw.githubusercontent.com/MegaFeet/sett1/master/depictions/resources/icons/ask.png" alt="Mountain View">
+    </div>
+
+    <div class="modal-footer">
+    <p>Click On Button To Go Directly To The Settings<a  target="_new" style="color:#cb3461;"></a></p>
+      <form>
+<input type="button" value="Click Here" onclick="window.location.href='https://t.co/nebRCFwgIu'" />
+</form>
+
+<h3>Modal Footer</h3>
+
+</div>
+  </div>
+
+</div>
+
+<script>
+// Get the modal
+var modal = document.getElementById('myModal');
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+// When the user clicks the button, open the modal 
+btn.onclick = function() {
+    modal.style.display = "block";
+}
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+    modal.style.display = "none";
+}
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
     <!--FOOER AREA END-->
 
 
