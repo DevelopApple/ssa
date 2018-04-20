@@ -1349,9 +1349,9 @@ text-transform: uppercase;
 
 .home-button a:hover,
 .sign-up:hover {
-background: #ffffff none repeat scroll 0 0;
+background: #cb3461 none repeat scroll 0 0;
 border-color: #ffffff;
-color: #1aabec;
+color: #cb3461;
 }
 
 
