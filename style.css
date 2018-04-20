@@ -1701,7 +1701,7 @@ text-transform: uppercase;
 }
 
 .member-name-and-designation h3::after {
-border-bottom: 4px double #1193d4;
+border-bottom: 4px double #cb3461;
 bottom: 0;
 content: "";
 height: 4px;
@@ -1717,8 +1717,8 @@ font-size: 15px;
 
 .member-details-content .social-bookmark li a {
 border-radius: 50%;
--webkit-box-shadow: 0 0 0 2px #1193d4 inset;
-box-shadow: 0 0 0 2px #1193d4 inset;
+-webkit-box-shadow: 0 0 0 2px #cb3461 inset;
+box-shadow: 0 0 0 2px #cb3461 inset;
 color: #1a264a;
 font-size: 22px;
 height: 50px;
@@ -1729,8 +1729,8 @@ width: 50px;
 }
 
 .member-details-content .social-bookmark li a:hover {
--webkit-box-shadow: 0 0 0 30px #1193d4 inset;
-box-shadow: 0 0 0 30px #1193d4 inset;
+-webkit-box-shadow: 0 0 0 30px #cb3461 inset;
+box-shadow: 0 0 0 30px #cb3461 inset;
 color: #fff;
 }
 
@@ -1746,7 +1746,7 @@ position: relative;
 }
 
 .team-member-thumb-menu ul li::after {
-background: #1193d4 none repeat scroll 0 0;
+background: #cb3461 none repeat scroll 0 0;
 content: "";
 height: 100%;
 left: 0;
@@ -1821,8 +1821,8 @@ width: 15px;
 }
 
 .testmonial-area .owl-dots > div.active {
-background: #1193d4 none repeat scroll 0 0;
-border-color: #1193d4;
+background: #cb3461 none repeat scroll 0 0;
+border-color: #cb3461;
 }
 
 /*---------------------------------
@@ -1848,7 +1848,7 @@ padding: 25px 0;
 }
 
 .price-rate h2 {
-color: #1193d4;
+color: #cb3461;
 font-family: open sans;
 font-size: 70px;
 margin-bottom: 0;
@@ -1903,11 +1903,11 @@ color: #292929;
 }
 
 .single-blog a:hover {
-color: #1193d4;
+color: #cb3461;
 }
 
 .blog-details h4 a:hover {
-color: #1193d4;
+color: #cb3461;
 }
 
 .blog-meta {
@@ -1930,7 +1930,7 @@ display: inline-block;
 font-size: 18px;
 letter-spacing: 1px;
 margin-top: 15px;
-color: #1193d4
+color: #cb3461
 }
 
 .blog-details a.readmore:hover {
@@ -1963,7 +1963,7 @@ padding: 10px;
 }
 
 .contact-form button {
-background: #1193d4 none repeat scroll 0 0;
+background: #cb3461 none repeat scroll 0 0;
 border: 0 none;
 color: #fff;
 letter-spacing: 1px;
@@ -2019,7 +2019,7 @@ width: 30%;
 }
 
 .subscriber-form button:hover {
-background: #1193d4 none repeat scroll 0 0;
+background: #cb3461 none repeat scroll 0 0;
 }
 
 label.mt10 {
@@ -2087,7 +2087,7 @@ background: #d8545d;
 
 .footer-social-bookmark .social-bookmark li a:hover {
 background: #ffffff;
-color: #1193d4;
+color: #cb3461;
 }
 
 .footer-copyright {
@@ -2095,7 +2095,7 @@ padding: 30px 0 15px;
 }
 
 .footer-copyright a:hover {
-color: #1193d4;
+color: #cb3461;
 }
 
 /*---------------------------------
@@ -2118,7 +2118,7 @@ z-index: 9;
 }
 
 .scrolltotop:hover {
-background: #1193d4;
+background: #cb3461;
 color: #ffffff;
 }
 
