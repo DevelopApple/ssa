@@ -1443,12 +1443,7 @@ ul#nav li ul a,
     text-transform: uppercase;
 }
 
-.home-button a:hover,
-.sign-up:hover {
-    background: #ffffff none repeat scroll 0 0;
-    border-color: #ffffff;
-    color: #ffffff;
-}
+
 
 
 /*--------------------------------
