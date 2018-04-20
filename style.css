@@ -326,7 +326,12 @@ input:-webkit-autofill:focus {
     margin-bottom: 80px;
     position: relative;
 }
-
+.download {
+display: none;
+}
+ul.list1 li img {
+width:13.5%;
+}
 .area-title h2 {
     color: #cb3461;
     line-height: 1;
